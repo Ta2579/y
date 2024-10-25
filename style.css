@@ -1,0 +1,125 @@
+:root {
+    --color-primary: #F1CDB3;
+    --color-primary-light: #FDDCC4;
+    --color-dark-l: #545454;
+    --color-light-l: #F6F6F6;
+    --color-dark-s: #CDCDCD;
+    --color-light-s: #FAFAFA;
+    --color-dark-xl: #4C4C4C;
+    --color-dark-3xl: #292929;
+    --color-light-xl:#FFF
+}
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li {
+    list-style:none;
+}
+a {
+    text-decoration: none;
+}
+p, a {
+    color: var(--color-dark-s);
+    font-family: Arial;
+    font-size: 15px;
+
+}
+.active {
+font-family: Arial;
+font-weight: 400;
+font-size: 15px;
+text-align: left;
+color: var(--color-light-s);
+border-bottom: 3px solid var(--color-primary);text-align: left;
+}
+.nav ul {
+ font-family: Arial;   
+ font-weight: 400;
+ font-size: 15px;
+ text-align: left;
+ color: var(--color-dark-s);
+ display: flex;
+ margin-right: 5px;
+ list-style: none;
+ gap: 20px;
+}
+  h1,h2,h3,h4,h5 {
+color: var(--color-dark-xl);
+font-family: Georgia;
+font-size: 44px;
+font-weight: 400;
+line-height: 130%;
+letter-spacing: 0%;
+}
+.logo h3 
+{
+    color: var(--color-primary);
+    font-size: 32px;
+}
+.start {
+background: url("./assets/images/noise-lines.png"),
+radial-gradient(234.05% 111.80% at 0% 0%, #262425, #5B483A 100%), #211F20;
+height: 100vh;
+}
+button
+{
+padding: 15px 45px;
+width: 207;
+height: 52px;
+color:var(--color-dark-3xl);
+font-family: Georgia;
+font-size: 17px;
+font-weight: 400;
+line-height: 130%;
+letter-spacing: 6%;
+background: var(--color-primary);
+border-radius: 100px;
+border: none;
+justify-content: center;
+border-radius: 100px;
+display: flex;
+text-align: left;
+}
+header {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    padding: 40px 30px;
+}
+.start-content {
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.start-content__text { 
+    align-self: center;
+    padding: 0 30px;
+
+}
+ul {
+display: flex;
+gap: 20px;
+}
+button {
+width: 207px;
+height: 52px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.start-content__text h2 {
+    color: var(--color-light-xl);
+}
+.start-content__text {
+width: 460px;
+height: 322px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+gap: 20px;
+}
